@@ -7,7 +7,7 @@
 /* logo font  */
 @font-face {
     font-family: 'TuesdayNight';
-    src: url('/assets/fonts/TuesdayNight-Regular.woff')format('woff');
+    src: url('../fonts/TuesdayNight-Regular.woff')format('woff');
 }
 
 html {
@@ -152,7 +152,7 @@ h2 {
     align-items: center;
     justify-content: flex-start;
     padding: 50px;
-    background: url('/assets/images/hero.jpg') no-repeat right center;
+    background: url('../images/hero.jpg') no-repeat right center;
     background-size: cover;
 }
 
@@ -1275,7 +1275,7 @@ body.dark-mode {
         height: 170vh;
         width: 145%;
         margin-left: 60px;
-        
+
 
     }
 
@@ -1287,7 +1287,7 @@ body.dark-mode {
     .services-grid {
         grid-template-columns: repeat(1, 1fr);
         margin-left: 37px;
-        
+
 
 
 
@@ -1296,7 +1296,7 @@ body.dark-mode {
     .service-box {
         height: 100%;
         width: 95%;
-        
+
     }
 
 
@@ -1305,8 +1305,8 @@ body.dark-mode {
     .work-section {
         width: 133%;
         height: 280vh;
-        margin-top:80%;
-        
+        margin-top: 80%;
+
 
     }
 
@@ -1399,13 +1399,14 @@ body.dark-mode {
 
 
 }
+
 /* ................................. */
 
-@media (Max-width: 320px ){
-        .aside {
+@media (Max-width: 320px) {
+    .aside {
         display: none;
 
-        
+
     }
 
     #toggleBtn {
@@ -1432,10 +1433,12 @@ body.dark-mode {
         right: px;
         min-width: 200px;
     }
-    .info-box h1{
+
+    .info-box h1 {
         font-size: 15px;
     }
-    .info-box .job-title{
+
+    .info-box .job-title {
         font-size: 13px;
     }
 
@@ -1447,13 +1450,16 @@ body.dark-mode {
     .about-text {
         max-width: 90%;
     }
-    .about-text  p{
+
+    .about-text p {
         font-size: 10px;
     }
-    .about-text  h2{
+
+    .about-text h2 {
         font-size: 15px;
     }
-    .btn-download{
+
+    .btn-download {
         font-size: 10px;
         padding: 5px 5px;
     }
@@ -1472,7 +1478,8 @@ body.dark-mode {
     .about-details {
         gap: 14px;
     }
-    .about-details li{
+
+    .about-details li {
         font-size: 10px;
     }
 
@@ -1500,7 +1507,7 @@ body.dark-mode {
         height: 205vh;
         width: 230%;
         margin-left: 60px;
-        
+
 
     }
 
@@ -1524,8 +1531,8 @@ body.dark-mode {
     .work-section {
         width: 200%;
         height: 280vh;
-        margin-top:80%;
-        
+        margin-top: 80%;
+
 
     }
 
@@ -1575,14 +1582,15 @@ body.dark-mode {
 
     .contact-section .container {
         flex-direction: column;
-        
+
     }
 
     .contact-info {
         max-width: 100%;
         margin-left: -85px;
     }
-    .details li{
+
+    .details li {
         font-size: 12px;
     }
 
@@ -1607,7 +1615,7 @@ body.dark-mode {
 
     .contact-form button {
         margin-left: -85px;
-        
+
     }
 
     .footer-content {
@@ -1616,11 +1624,12 @@ body.dark-mode {
         gap: 60px;
 
     }
-    
-    .icon-content li i{
+
+    .icon-content li i {
         font-size: 15px;
     }
-    .footer-content p{
+
+    .footer-content p {
         font-size: 10px;
     }
 

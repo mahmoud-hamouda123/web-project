@@ -7,7 +7,7 @@
 /* logo font  */
 @font-face {
     font-family: 'TuesdayNight';
-    src: url('/assets/fonts/TuesdayNight-Regular.woff')format('woff');
+    src: url('../fonts/TuesdayNight-Regular.woff')format('woff');
 }
 
 html {
@@ -152,7 +152,7 @@ h2 {
     align-items: center;
     justify-content: flex-start;
     padding: 50px;
-    background: url('/assets/images/hero.jpg') no-repeat left center;
+    background: url('../images/hero.jpg') no-repeat left center;
     background-size: cover;
 }
 
@@ -937,6 +937,7 @@ body.dark-mode {
         opacity: 1;
     }
 }
+
 /* ............................ */
 @media (Min-width: 992px) {
     #toggleBtn {
@@ -1168,7 +1169,7 @@ body.dark-mode {
 
 
 /* Media Koiri for the small screen */
-@media (Max-width: 600px ){
+@media (Max-width: 600px) {
     .aside {
         display: none;
         position: fixed;
@@ -1268,7 +1269,7 @@ body.dark-mode {
         height: 170vh;
         width: 145%;
         margin-right: 60px;
-        
+
 
     }
 
@@ -1280,7 +1281,7 @@ body.dark-mode {
     .services-grid {
         grid-template-columns: repeat(1, 1fr);
         margin-right: 38px;
-        
+
 
 
 
@@ -1289,7 +1290,7 @@ body.dark-mode {
     .service-box {
         height: 100%;
         width: 95%;
-        
+
     }
 
 
@@ -1298,8 +1299,8 @@ body.dark-mode {
     .work-section {
         width: 133%;
         height: 280vh;
-        margin-top:80%;
-        
+        margin-top: 80%;
+
 
     }
 
@@ -1390,12 +1391,13 @@ body.dark-mode {
         left: 5px;
     }
 }
+
 /* ....................... */
-@media (Max-width: 320px ){
-        .aside {
+@media (Max-width: 320px) {
+    .aside {
         display: none;
 
-        
+
     }
 
     #toggleBtn {
@@ -1422,10 +1424,12 @@ body.dark-mode {
         right: px;
         min-width: 200px;
     }
-    .info-box h1{
+
+    .info-box h1 {
         font-size: 15px;
     }
-    .info-box .job-title{
+
+    .info-box .job-title {
         font-size: 13px;
     }
 
@@ -1437,13 +1441,16 @@ body.dark-mode {
     .about-text {
         max-width: 90%;
     }
-    .about-text  p{
+
+    .about-text p {
         font-size: 10px;
     }
-    .about-text  h2{
+
+    .about-text h2 {
         font-size: 15px;
     }
-    .btn-download{
+
+    .btn-download {
         font-size: 10px;
         padding: 5px 5px;
     }
@@ -1462,7 +1469,8 @@ body.dark-mode {
     .about-details {
         gap: 14px;
     }
-    .about-details li{
+
+    .about-details li {
         font-size: 10px;
     }
 
@@ -1490,12 +1498,12 @@ body.dark-mode {
         height: 205vh;
         width: 230%;
         margin-right: 60px;
-        
+
 
     }
 
     .services-section .section-title {
-        margin: 20px 60px 50px 0 ;
+        margin: 20px 60px 50px 0;
     }
 
 
@@ -1514,8 +1522,8 @@ body.dark-mode {
     .work-section {
         width: 200%;
         height: 280vh;
-        margin-top:80%;
-        
+        margin-top: 80%;
+
 
     }
 
@@ -1565,14 +1573,15 @@ body.dark-mode {
 
     .contact-section .container {
         flex-direction: column;
-        
+
     }
 
     .contact-info {
         max-width: 100%;
         margin-right: -85px;
     }
-    .details li{
+
+    .details li {
         font-size: 12px;
     }
 
@@ -1597,7 +1606,7 @@ body.dark-mode {
 
     .contact-form button {
         margin-right: -85px;
-        
+
     }
 
     .footer-content {
@@ -1606,11 +1615,12 @@ body.dark-mode {
         gap: 60px;
 
     }
-    
-    .icon-content li i{
+
+    .icon-content li i {
         font-size: 15px;
     }
-    .footer-content p{
+
+    .footer-content p {
         font-size: 10px;
     }
 
